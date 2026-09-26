@@ -1,56 +1,12 @@
-   0.047660600s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint: fingerprint error for guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game)/Check { test: false }/TargetInner { name: "guessing_game", doc: true, ..: with_path("C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs", Edition2024) }
-   0.047736900s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\aryan\Desktop\Rust\guessing_game\target\debug\.fingerprint\guessing_game-5ed83ee468a34888\bin-guessing_game`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_libgit2_prerelease
-  11: <unknown>
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: git_midx_writer_dump
-  16: git_filter_source_repo
-  17: git_midx_writer_dump
-  18: BaseThreadInitThunk
-  19: RtlUserThreadStart
-   0.070705100s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint: fingerprint error for guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game)/Check { test: true }/TargetInner { name: "guessing_game", doc: true, ..: with_path("C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs", Edition2024) }
-   0.070737600s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\aryan\Desktop\Rust\guessing_game\target\debug\.fingerprint\guessing_game-9cda1898086056dc\test-bin-guessing_game`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_libgit2_prerelease
-  11: <unknown>
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: git_midx_writer_dump
-  16: git_filter_source_repo
-  17: git_midx_writer_dump
-  18: BaseThreadInitThunk
-  19: RtlUserThreadStart
+   0.084901100s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs"
+   0.085017700s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\target\\debug\\.fingerprint\\guessing_game-5ed83ee468a34888\\dep-bin-guessing_game"
+   0.085060000s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13434733825, nanos: 506396900 } < FileTime { seconds: 13434911370, nanos: 987823400 }
+   0.113024400s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint: fingerprint dirty for guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game)/Check { test: false }/TargetInner { name: "guessing_game", doc: true, ..: with_path("C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs", Edition2024) }
+   0.113114900s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\target\\debug\\.fingerprint\\guessing_game-5ed83ee468a34888\\dep-bin-guessing_game", reference_mtime: FileTime { seconds: 13434733825, nanos: 506396900 }, stale: "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs", stale_mtime: FileTime { seconds: 13434911370, nanos: 987823400 } }))
+   0.249857600s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs"
+   0.249950500s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\target\\debug\\.fingerprint\\guessing_game-9cda1898086056dc\\dep-test-bin-guessing_game"
+   0.249976000s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13434733825, nanos: 506396900 } < FileTime { seconds: 13434911370, nanos: 987823400 }
+   0.280607200s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint: fingerprint dirty for guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game)/Check { test: true }/TargetInner { name: "guessing_game", doc: true, ..: with_path("C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs", Edition2024) }
+   0.280677500s  INFO prepare_target{force=false package_id=guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game) target="guessing_game"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\target\\debug\\.fingerprint\\guessing_game-9cda1898086056dc\\dep-test-bin-guessing_game", reference_mtime: FileTime { seconds: 13434733825, nanos: 506396900 }, stale: "C:\\Users\\aryan\\Desktop\\Rust\\guessing_game\\src\\main.rs", stale_mtime: FileTime { seconds: 13434911370, nanos: 987823400 } }))
     Checking guessing_game v0.1.0 (C:\Users\aryan\Desktop\Rust\guessing_game)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.32s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.78s
